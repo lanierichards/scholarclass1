@@ -16,6 +16,11 @@ class Scholar {
         studying = scholarStudying
         favoriteClass = scholarFavoriteClass
     }
+    
+    //here is an action I've done with code
+    func writeCode() {
+        print("\(name) is busy writing code at KWK Portland!")
+    }
 }
 
 //you create your objects OUTSIDE of your class! You specialize each blueprint
@@ -30,3 +35,4 @@ print(hunterScholar.name)
 print(hunterScholar.grade)
 print(hunterScholar.studying)
 print(hunterScholar.favoriteClass)
+hunterScholar.writeCode()
